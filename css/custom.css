@@ -30,7 +30,7 @@ div.bbp-template-notice.info p,
     border-color: #01969c !important;
     color: #ffffff !important;
 }
-.logo-wrapper { background-color: #620aae; color: #ffffff !important; padding-top: 0; padding-bottom: 0;}
+.logo-wrapper { background: url('/OPSEC/images/212-12-45-1-18AEB5-1-01969C-DDEE1E-DDEE1E-DDEE1E-DDEE1E-01969C-78D316-78D316-78D316-78D316-no-yes-yes-yes-yes-.png'); background-color: #620aae; color: #ffffff !important; padding-top: 0; padding-bottom: 0;}
 .navbar-default, .label-primary, .reviewbox h3, .progress-bar, .tags a, .btn-primary, div.bbp-template-notice.info, div.bbp-template-notice.info p, .header, .random-article, .type, .status, .flex-direction-nav a, #bbpress-forums li.bbp-header, .pagination > li > a, .pagination > li > span, .large-widget .large-widget-title:hover a, .mini-widget .post:hover a, .post-review:hover h3 a, .widget-title hr::before { background-color: #01969c; border-color: #01969c; color: #ffffff !important; }
 .navbar-nav > li:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #18aeb5; color: #ffffff !important;}
 .hushlogo { float: right; }
