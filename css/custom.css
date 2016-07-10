@@ -32,7 +32,7 @@ div.bbp-template-notice.info p,
     border-color: #0288d1 !important;
     color: #ffffff !important;
 }
-
+.logo-wrapper { background-color: #000;}
 a,
 .page-404-content h2,
 .sitemapwrapper li:hover a,
