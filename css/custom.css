@@ -38,7 +38,7 @@ div.bbp-template-notice.info p,
 .navbar-brand { width:483px }
 .ASCIIART { line-height: 1; }
 .widget-title h4 {
-    margin-top:10px;
+    padding-top:10px;
 }
 .glyphicon {
     text-align: center;
