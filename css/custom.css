@@ -36,6 +36,7 @@ div.bbp-template-notice.info p,
 .navbar-nav > li:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #18aeb5; color: #ffffff !important;}
 .header.affix { background-color: #01969c; }
 .glyphicon {
+    text-align: center;
     font-size: 1.4em;
     padding-left: 15px;
     padding-right: 15px;
