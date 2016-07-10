@@ -33,7 +33,6 @@ div.bbp-template-notice.info p,
 .logo-wrapper { background-color: #7924c2; color: #ffffff !important; padding-top: 0; padding-bottom: 0;}
 .navbar-default, .label-primary, .reviewbox h3, .progress-bar, .tags a, .btn-primary, div.bbp-template-notice.info, div.bbp-template-notice.info p, .header, .random-article, .type, .status, .flex-direction-nav a, #bbpress-forums li.bbp-header, .pagination > li > a, .pagination > li > span, .large-widget .large-widget-title:hover a, .mini-widget .post:hover a, .post-review:hover h3 a, .widget-title hr::before { background-color: #01969c; border-color: #01969c; color: #ffffff !important; }
 .navbar-nav > li:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #18aeb5; color: #ffffff !important;}
-.navbar-brand { align:right; }
 
 a,
 .page-404-content h2,
