@@ -37,6 +37,9 @@ div.bbp-template-notice.info p,
 .header.affix { background-color: #01969c; }
 .navbar-brand { width:483px }
 .ASCIIART { line-height: 1; }
+.widget-title h4 {
+    padding-top:10px;
+}
 .glyphicon {
     text-align: center;
     font-size: 1em;
