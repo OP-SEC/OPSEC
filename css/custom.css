@@ -39,6 +39,12 @@ div.bbp-template-notice.info p,
 .widget-title h4 {
     padding-top:10px;
 }
+.text_blink { animation: blink 1s steps(5, start) infinite; }
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
 .glyphicon {
     text-align: center;
     font-size: 1em;
