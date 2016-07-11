@@ -35,7 +35,7 @@ div.bbp-template-notice.info p,
 .navbar-default, .label-primary, .reviewbox h3, .progress-bar, .tags a, .btn-primary, div.bbp-template-notice.info, div.bbp-template-notice.info p, .header, .random-article, .type, .status, .flex-direction-nav a, #bbpress-forums li.bbp-header, .pagination > li > a, .pagination > li > span, .large-widget .large-widget-title:hover a, .mini-widget .post:hover a, .post-review:hover h3 a, .widget-title hr::before { background-color: #01969c; border-color: #01969c; color: #ffffff !important; }
 .navbar-nav > li:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #18aeb5; color: #ffffff !important;}
 .header.affix { background-color: #01969c; }
-.ASCIIART { line-height: 1; }
+.ASCIIART { font-family: "lucida grande",tahoma,verdana,arial,sans-serif; line-height: 1; }
 .widget-title h4 {
     padding-top:10px;
 }
