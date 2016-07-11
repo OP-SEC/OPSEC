@@ -39,11 +39,18 @@ div.bbp-template-notice.info p,
 .widget-title h4 {
     padding-top:10px;
 }
-.text-blink {
-  animation: blinker 1s linear infinite;
-}
 @keyframes blinker {  
-  50% { opacity: 0.0; }
+  from { visibility: visible }
+  to { visibility: hidden }
+
+  /* Alternatively you can do this:  
+  0% { visibility: visible; }
+  50% { visibility: hidden; }
+  100% { visibility: visible; }
+  if you don't want to use `alternate` */
+}
+.text-blink {
+  animation: blinker steps(1) 500ms infinite alternate;
 }
 .glyphicon {
     text-align: center;
