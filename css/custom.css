@@ -39,11 +39,11 @@ div.bbp-template-notice.info p,
 .widget-title h4 {
     padding-top:10px;
 }
-.text_blink { animation: blink 1s steps(5, start) infinite; }
-@keyframes blink {
-    to {
-        visibility: hidden;
-    }
+.text-blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0.0; }
 }
 .glyphicon {
     text-align: center;
