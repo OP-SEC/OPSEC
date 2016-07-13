@@ -48,7 +48,7 @@ body { background-color: #4a0783; }
     color:#FFF;
 }
 
-
+h4 { color:#FFF; }
 .text-blink {
     -webkit-animation: blink 1s linear infinite;
     -moz-animation: blink 1s linear infinite;
