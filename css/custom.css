@@ -41,9 +41,10 @@ div.bbp-template-notice.info p,
 }
 body { background-color: #4a0783; }
 .bgw {
-    background-color: #017176;
+    background-color: #31343b;
     border-style: solid;
     border-width: 0.5em;
+    border-color: #017176;
 }
 
 
