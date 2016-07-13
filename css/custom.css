@@ -56,6 +56,13 @@ h4 { color:#FFF; }
     -o-animation: blink 1s linear infinite;
     animation: blink 1s linear infinite;
 }
+.text-blink2 {
+    -webkit-animation: blink 3.2s linear infinite;
+    -moz-animation: blink 3.2s linear infinite;
+    -ms-animation: blink 3.2s linear infinite;
+    -o-animation: blink 3.2s linear infinite;
+    animation: blink 3.2s linear infinite;
+}
 
 @-webkit-keyframes blink {
     0% { opacity: 1; }
