@@ -39,6 +39,23 @@ div.bbp-template-notice.info p,
 .widget-title h4 {
     padding-top:10px;
 }
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+
+
 body { background-color: #4a0783; }
 .bgw {
     background-color: #31343b;
