@@ -67,13 +67,13 @@ body { background-color: #4a0783; }
 
 h4 { color:#FFF; }
 
-#subcategory_mobile {
-  display: none;
-}
 
-#subcategory_mobile:target {
-  display: block;
-}
+
+#categories_main { display: none; }
+#categories_main:target { display: block; }
+
+#subcategory_mobile { display: none; }
+#subcategory_mobile:target { display: block; }
 
 
 .text-blink {
