@@ -66,6 +66,16 @@ body { background-color: #4a0783; }
 }
 
 h4 { color:#FFF; }
+
+#subcategory_mobile {
+  display: none;
+}
+
+#subcategory_mobile:target {
+  display: block;
+}
+
+
 .text-blink {
     -webkit-animation: blink 1s linear infinite;
     -moz-animation: blink 1s linear infinite;
