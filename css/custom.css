@@ -67,8 +67,6 @@ body { background-color: #4a0783; }
 
 h4 { color:#FFF; }
 
-
-
 #wizard { display: none; }
 #wizard:target { display: block; }
 
@@ -92,11 +90,11 @@ h4 { color:#FFF; }
 }
 
 .text-blink3 {
-    -webkit-animation: blink 5.4s linear infinite;
-    -moz-animation: blink 5.4s linear infinite;
-    -ms-animation: blink 5.4s linear infinite;
-    -o-animation: blink 5.4s linear infinite;
-    animation: blink 5.4s linear infinite;
+    -webkit-animation: blink 3.8s linear infinite;
+    -moz-animation: blink 3.8s linear infinite;
+    -ms-animation: blink 3.8s linear infinite;
+    -o-animation: blink 3.8s linear infinite;
+    animation: blink 3.8s linear infinite;
 }
 @-webkit-keyframes blink {
     0% { opacity: 1; }
