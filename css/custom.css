@@ -73,15 +73,41 @@ h4 { color:#FFF; }
 #subcategory_mobile { display: none; }
 #subcategory_mobile:target { display: block; }
 
-#wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -60px;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
-#push, #footer {
-    height: 60px;
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+
 
 .text-blink {
     -webkit-animation: blink 1s linear infinite;
