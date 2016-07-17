@@ -1,500 +1,180 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- SITE META -->
-    <title>OPSEC</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/shhhmask.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
-
-    <!-- TEMPLATE STYLES -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <!-- CUSTOM STYLES -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- START SITE -->
-    <div id="wrapper">
-
-
-        <div class="logo-wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-
-                        <!--img src="images/logo.png" class="navbar-brand" alt=""-->
-			<div class="ASCIIART">
-			█▀▀█ █▀▀█ █▀▀ █▀▀ █▀▀<br>
-			█░░█ █░░█ ▀▀█ █▀▀ █░░<br>
-			▀▀▀▀ █▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀<br>
-		     ────▄█▀█▄─────────██<br>
-		     ───▄████████▄───▄▀█▄▄▄▄<br>
-		     ──▄██▀▼▼▼▼▼───▄▀█▄▄<br>
-		     ─▄█████▄▲▲▲──▄▄▄▀──▀▄<br>
-		     ▄██████▀▀▀▀▀─▀───────▀▀<br>
-
-			</div>
-
-
-
-                    </div>
-                    <!-- end col -->
-                    <div class="col-md-9 col-sm-12">
-                        <div class="ads-widget clearfix">
-                            <a href="#"><img src="upload/banner_03.jpg" alt="" class="img-responsive"></a>
-                        </div>
-                        <!-- end ads-widget -->
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end logo-wrapper -->
-
-
-        <header class="header">
-            <div class="container">
-                <nav class="navbar navbar-default yamm">
-                    <div class="container-full">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-
-                        <div id="navbar" class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#wizard">
-	                               	<div class="ASCIIART">
-						WIZARD
-                                	</div>                                	
-                                </a></li>
-                                <li><a href="index.html">
-                                	<div class="ASCIIART">
-						ARCHIVES
-                                	</div>
-                                </a></li>
-                                <li><a href="index.html" class="harden">
-                                	<div class="ASCIIART">
-						CONTRIBUTE
-                                	</div>                                	
-                                </a></li>
-
-                             </ul>
-  
-                        </div>
-                        <!--/.nav-collapse -->
-                    </div>
-                    <!--/.container-fluid -->
-                </nav>
-            </div>
-            <!-- end container -->
-        </header>
-        <!-- end header -->
-
-
-        
-        <div class="container sitecontainer bgw">
-
-
-		<div id="wizard">
-		    <div class="row">
-		        <div class="col-md-12">
-				<a href="#wizard" style="text-decoration: none; color:#FFF">
-					<div class="ASCIIART">
-						█▀▀ █▀▀ █░░ █▀▀ █▀▀ ▀▀█▀▀</br>
-						▀▀█ █▀▀ █░░ █▀▀ █░░ ░░█░░</br>
-						▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░ <span class="text-blink">▀▀▀</span></br>
-						</br>
-					</div>
-				</a>
-		        </div><!-- end col -->
-		    </div><!-- end row -->
 
-
-		    <div class="row">
-		        <div class="col-md-12">
-				<div class="ASCIIART" style="overflow:hidden; padding-bottom:2em">
-					▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</br>
-				</div>
-			
-		        </div><!-- end col -->
-		    </div><!-- end row -->
-
-
-		    <div class="row row-centered">
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<a href="#subcategory_mobile" style="text-decoration: none; color:#FFF">
-						<div class="ASCIIART" id="category_mobile">
-							────▄▄▄▄▄▄▄▄▄▄▄▄▄▄</br>
-							▀▀▀█─<span class="text-blink2">▄▄▄▄▄▄</span>─▄─▄─▄─█</br>
-							───█─<span class="text-blink2">██████</span>─▄▀▄▀▄─█</br>
-							───█─<span class="text-blink2">██████</span>─▄▀▄▀▄─█</br>
-							───▀▄▄▄▄▄▄▄▄▄▄▄▄▄▄▀</br></br>
-							<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">MOBILE</span>
-
-						</div>
-					</a>
-				</div><!-- end col -->
-
-
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<div class="ASCIIART" id="category_desktop">
-						▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░</br>
-						▐▓█░░<span class="text-blink3">▀▄░▄▀</span>░░█▓▌░█▄▄▄█░</br>
-						▐▓█░░<span class="text-blink3">▀▄▄▄▀</span>░░█▓▌░█▄▄▄█░</br>
-						▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░</br>
-						░░░░▄▄███▄▄░░░░░█████░</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">DESKTOP</span>
-					</div>
-				</div><!-- end col -->
-
-
-
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<div class="ASCIIART" id="category_network">
-
-						─────────────</br>
-						──▄▄▄▄▄▄▄▄▄──</br>
-						──█████████──</br>
-						──█████████──</br>
-						───▀█████▀───</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">NETWORK</span>
-
-					</div>
-				</div><!-- end col -->
-
-
-
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<div class="ASCIIART" id="category_data">
-
-						──▄▀▀▀▄───────────────</br>
-						──█───█───────────────</br>
-						─███████─────────▄▀▀▄─</br>
-						░███ ███░░█▀█▀▀▀▀█░░█░</br>
-						░███▄███░░▀░▀░░░░░▀▀░░</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">DATA</span>
-
-
-					</div>
-				</div><!-- end col -->
-
-
-
-
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<div class="ASCIIART" id="category_physical">
-
-						─────────█▄██▄█─────────</br>
-						█▄█▄█▄█▄█▐█┼██▌█▄█▄█▄█▄█</br>
-						███┼█████▐████▌█████┼███</br>
-						█████████▐████▌█████████</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">PHYSICAL</span>
-
-
-
-
-					</div>
-				</div><!-- end col -->
-
-
-
-
-				<div class="col-md-3 text-center" style="padding-bottom:4em">
-					<div class="ASCIIART" id="category_privacy">
-						</br>
-						█▓▒▓█▀██▀█▄░░▄█▀██▀█▓▒▓█</br>
-						█▓▒░▀▄▄▄▄▄█░░█▄▄▄▄▄▀░▒▓█</br>
-						█▓▓▒░░░░░▒▓░░▓▒░░░░░▒▓▓█</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">PRIVACY</span>
-
-
-
-					</div>
-				</div><!-- end col -->
-
-			</div>
-
-		</div>
-		<div id="subcategory_mobile">
-		    <div class="row">
-			<div class="col-md-4">
-				<div class="ASCIIART">
-					█▀▀ █▀▀ █░░ █▀▀ █▀▀ ▀▀█▀▀</br>
-					▀▀█ █▀▀ █░░ █▀▀ █░░ ░░█░░</br>
-					▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░ <span class="text-blink">▀▀▀</span></br>
-					</br>
-				</div>
-			</div><!-- end col -->
-
-			<div class="col-md-4 text-center">
-				<div class="ASCIIART">
-					</br>
-					<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"=""><a href="#wizard" style="text-decoration: none; color:#FFF">OPSEC</a> > <a href="#subcategory_mobile" style="text-decoration: none; color:#FFF">mobile</a></span>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<a href="#wizard" style="text-decoration: none; color:#FFF">
-					<div class="ASCIIART" style="float:right">
-						█▀▀▄ █▀▀█ █▀▀ █░█</br>
-						█▀▀▄ █▄▄█ █░░ █▀▄</br>
-						▀▀▀░ ▀░░▀ ▀▀▀ ▀░▀</br>
-						</br>
-					</div>
-				</a>
-			</div><!-- end col -->
-
-
-		    </div><!-- end row -->
-
-
-		    <div class="row">
-			<div class="col-md-12">
-				<div class="ASCIIART" style="overflow:hidden; padding-bottom:2em">
-					▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</br>
-				</div>
-		
-			</div><!-- end col -->
-		    </div><!-- end row -->
-		
-
-
-		        <div class="col-md-3 text-center" style="padding-bottom:4em">
-				<a href="#subcategory_mobile_android" style="text-decoration: none; color:#FFF">
-					<div class="ASCIIART" id="category_android">
-						░░░▄░░░▄░░░</br>
-						░░░▄█▄█▄░░░</br>
-						░░██▄█▄██░░</br>
-						░░▄▄▄▄▄▄▄░░</br>
-						█░███████░█</br>
-						░░░██░██░░░</br></br>
-						<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">ANDROID</span>
-
-					</div>
-				</a>
-		        </div><!-- end col -->
-
-		        <div class="col-md-3 text-center" style="padding-bottom:4em">
-				<div class="ASCIIART" id="category_apple">
-					░░░░░▄░░░</br>
-					░░▄▄█▄▄░░</br>
-					▄███████▄</br>
-					███████░░</br>
-					▀███████▀</br>
-					░░▀▀░▀▀░░</br></br>
-					<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">APPLE</span>
-				</div>
-		        </div><!-- end col -->
-
-		        <div class="col-md-3 text-center" style="padding-bottom:4em">
-				<div class="ASCIIART" id="category_nokia">
-						█▀▀▀▀█</br>
-						█░░░░█</br>
-						█░░░░█</br>
-						█▄▄▄▄█</br>
-						██████</br>
-						██████</br>
-					</br>
-					<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">NOKIA</span>
-				</div>
-		        </div><!-- end col -->
-
-		        <div class="col-md-3 text-center" style="padding-bottom:4em">
-				<div class="ASCIIART" id="category_nokia">
-
-					░░░░░░░░</br>
-					█▄░█▄░░░</br>
-					█▄░█▄░█▄</br>
-					▀░░█▄░█▄</br>
-					░░░▀░░▀░</br>
-					░░░░░░░░</br>
-					</br>
-					<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"="">BLACKBERRY</span>
-
-				</div>
-		        </div><!-- end col -->
-
-	            </div><!-- end row -->
-
-		<div id="subcategory_mobile_android">
-		    <div class="row">
-			<div class="col-md-4">
-				<div class="ASCIIART">
-					█▀▀ █▀▀ █░░ █▀▀ █▀▀ ▀▀█▀▀</br>
-					▀▀█ █▀▀ █░░ █▀▀ █░░ ░░█░░</br>
-					▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░ <span class="text-blink">▀▀▀</span></br>
-					</br>
-				</div>
-			</div><!-- end col -->
-
-			<div class="col-md-4 text-center">
-				<div class="ASCIIART">
-					</br>
-					<span style="font-size: 1.8em; color: #fff !important; text-transform: capitalize; font-weight: 700; line-height: 30px; font-family: " roboto="" slab",="" "helvetica="" neue",="" helvetica,="" arial,="" sans-serif;"=""><a href="#wizard" style="text-decoration: none; color:#FFF">OPSEC</a> > <a href="#subcategory_mobile" style="text-decoration: none; color:#FFF">mobile</a> > <a href="#subcategory_mobile_android" style="text-decoration: none; color:#FFF">android</a></span>
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<a href="#wizard" style="text-decoration: none; color:#FFF">
-					<div class="ASCIIART" style="float:right">
-						█▀▀▄ █▀▀█ █▀▀ █░█</br>
-						█▀▀▄ █▄▄█ █░░ █▀▄</br>
-						▀▀▀░ ▀░░▀ ▀▀▀ ▀░▀</br>
-						</br>
-					</div>
-				</a>
-			</div><!-- end col -->
-
-
-		    </div><!-- end row -->
-
-
-		    <div class="row">
-			<div class="col-md-12">
-				<div class="ASCIIART" style="overflow:hidden; padding-bottom:2em">
-					▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</br>
-				</div>
-		
-			</div><!-- end col -->
-		    </div><!-- end row -->
-		
-
-		    <div class="row">
-		        <div class="col-md-4 text-center" style="padding-bottom:4em">
-
-				<div class="ASCIIART" style="overflow:hidden">
-					__________________________________________________
-					__________________________________________________</br>
-					_________________█________________█_______________</br>
-					_________________██______________█________________</br>
-					__________________███████████████_________________</br>
-					________________███████████████████_______________</br>
-					______________████___█████████___████_____________</br>
-					_____________█████___█████████___█████____________</br>
-					____________███████████████████████████___________</br>
-					____________███████████████████████████___________</br>
-					__________________________________________________</br>
-					_____████___████████████████████████████___████___</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					____██████__████████████████████████████__██████__</br>
-					_____████___████████████████████████████___████___</br>
-					____________████████████████████████████__________</br>
-					____________████████████████████████████__________</br>
-					____________███████████████████████████___________</br>
-					_________________██████______██████_______________</br>
-					_________________██████______██████_______________</br>
-					_________________██████______██████_______________</br>
-					_________________██████______██████_______________</br>
-					_________________██████______██████_______________</br>
-					__________________________________________________</br>
-											</br>
-				</div>
-			</div>
-
-		        <div class="col-md-8" style="padding-bottom:4em">
-
-
-				<div class="ASCIIART" style="font-size: 1em;">
-
-					
-
-
-					Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets.</br>
-					Android as an operating system is very secure. It has multiple layers of protection to keep malware at bay, and it requires your specific permission to do almost anything that could lead to your data or the system being compromised. However, Android is an open system that trusts you the user and its community of developers to do the right thing. If you want to, you can give away a lot of permissions, and even access to deeper parts of the system if you've rooted your phone. Android tries to protect you from yourself, but if you nudge it, it lets you have the final say on what to install (and from where, like unknown sources and beyond the regularly-patrolled walls of Google Play) and who to give permissions to. This mean that users are the weak link for Android security.
-
-
-				</div>
-		        </div><!-- end col -->
-
-
-	            </div><!-- end row -->
-
-
-
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-        </div><!-- end container -->
-
-        <div id="sitefooter-wrap" class="footer">
-
-
-		    <div id="sitefooter" class="container">
-		        <div id="copyright" class="row">
-		            <div class="col-md-6 col-sm-12 text-left">
-				<div class="ASCIIART">
-				█▀▀█ █▀▀█ █▀▀ █▀▀ █▀▀<br>
-				█░░█ █░░█ ▀▀█ █▀▀ █░░<br>
-				▀▀▀▀ █▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀<br>
-			     ────▄█▀█▄─────────██<br>
-			     ───▄████████▄───▄▀█▄▄▄▄<br>
-			     ──▄██▀▼▼▼▼▼───▄▀█▄▄<br>
-			     ─▄█████▄▲▲▲──▄▄▄▀──▀▄<br>
-			     ▄██████▀▀▀▀▀─▀───────▀▀<br>
-				</div>
-		            </div>
-		        </div>
-		    </div>
-        </div>
-
-    </div><!-- end wrapper -->
-    <!-- END SITE -->
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/plugins.js"></script>
-  
-</body>
-</html>
+/**********************************
+    File Name: custom.css
+    Template Name: TechMag
+    Created By: Template Visual Team
+    Website: http://templatevisual.com
+    Version: 1.0
+    Support: support@templatevisual.com
+
+/**********************************/
+ht
+.label-primary,
+.reviewbox h3,
+.progress-bar,
+.tags a,
+.btn-primary,
+div.bbp-template-notice.info,
+div.bbp-template-notice.info p,
+.random-article,
+.type,
+.status,
+.flex-direction-nav a,
+#bbpress-forums li.bbp-header,
+.pagination > li > a,
+.pagination > li > span,
+.large-widget .large-widget-title:hover a,
+.mini-widget .post:hover a,
+.post-review:hover h3 a,
+.widget-title hr:before {
+    background-color: #01969c !important;
+    border-color: #01969c !important;
+    color: #ffffff !important;
+}
+.logo-wrapper { background: url('/OPSEC/images/212-12-45-1-18AEB5-1-01969C-DDEE1E-DDEE1E-DDEE1E-DDEE1E-01969C-78D316-78D316-78D316-78D316-no-yes-yes-yes-yes-.png'); background-color: #620aae; color: #ffffff !important; padding-top: 0; padding-bottom: 0;}
+.harden {  background-color: #7924c2; color: #ffffff !important; padding-top: 0; padding-bottom: 0;}
+.navbar-default, .label-primary, .reviewbox h3, .progress-bar, .tags a, .btn-primary, div.bbp-template-notice.info, div.bbp-template-notice.info p, .header, .random-article, .type, .status, .flex-direction-nav a, #bbpress-forums li.bbp-header, .pagination > li > a, .pagination > li > span, .large-widget .large-widget-title:hover a, .mini-widget .post:hover a, .post-review:hover h3 a, .widget-title hr::before { background-color: #01969c; border-color: #01969c; color: #ffffff !important; }
+.navbar-nav > li:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #18aeb5; color: #ffffff !important;}
+.header.affix { background-color: #01969c; }
+.ASCIIART { cursor:pointer; font-family: monospace,"lucida grande",tahoma,verdana,arial,sans-serif; line-height: 1; }
+.widget-title h4 {
+    padding-top:10px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+
+
+body {
+  background-color: #4a0783;
+}
+.bgw {
+    background-color: #31343b;
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: #017176;
+    color:#FFF;
+}
+
+h4 { color:#FFF; }
+
+#wizard { display: none; }
+#wizard:target { display: block; }
+
+#subcategory_mobile { display: none; }
+#subcategory_mobile:target { display: block; }
+
+#subcategory_mobile_android { display: none; }
+#subcategory_mobile_android:target { display: block; }
+
+
+.text-blink {
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
+}
+.text-blink2 {
+    -webkit-animation: blink 3.2s linear infinite;
+    -moz-animation: blink 3.2s linear infinite;
+    -ms-animation: blink 3.2s linear infinite;
+    -o-animation: blink 3.2s linear infinite;
+    animation: blink 3.2s linear infinite;
+}
+
+.text-blink3 {
+    -webkit-animation: blink 3.8s linear infinite;
+    -moz-animation: blink 3.8s linear infinite;
+    -ms-animation: blink 3.8s linear infinite;
+    -o-animation: blink 3.8s linear infinite;
+    animation: blink 3.8s linear infinite;
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+.glyphicon {
+    text-align: center;
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navsize { font-size: 0.4em; }
+a,
+.page-404-content h2,
+.sitemapwrapper li:hover a,
+.news-ticker span,
+.footer .check li:hover a,
+#sitefooter a:hover,
+.sociallinks li:hover a,
+#sitefooter a:focus,
+.widget-title a,
+.post-share .fa-share-alt {
+    color: #0288d1;
+}
+
+a:hover,
+a:focus {
+    color: #0080c9;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+div.bbp-template-notice,
+div.indicator-hint,
+div.bbp-template-notice p,
+.tags a:hover,
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #0080c9 !important;
+    border-color: #0080c9 !important;
+    color: #ffffff !important;
+}
