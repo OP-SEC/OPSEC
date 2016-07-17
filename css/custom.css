@@ -73,6 +73,13 @@ h4 { color:#FFF; }
 #subcategory_mobile { display: none; }
 #subcategory_mobile:target { display: block; }
 
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;
+}
+
 
 .text-blink {
     -webkit-animation: blink 1s linear infinite;
