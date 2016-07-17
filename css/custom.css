@@ -1,3 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
 /**********************************
     File Name: custom.css
     Template Name: TechMag
@@ -7,7 +14,7 @@
     Support: support@templatevisual.com
 
 /**********************************/
-
+ht
 .label-primary,
 .reviewbox h3,
 .progress-bar,
