@@ -79,7 +79,9 @@ h4 { color:#FFF; }
     height: 100%;
     margin: 0 auto -60px;
 }
-
+#push, #footer {
+    height: 60px;
+}
 
 .text-blink {
     -webkit-animation: blink 1s linear infinite;
